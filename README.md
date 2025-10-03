@@ -84,7 +84,7 @@ npm run build
 npm start
 ```
 
-## 🔧 Technologies Used
+## Technologies Used
 
 ### Frontend
 - React.js
@@ -108,18 +108,3 @@ npm start
 - Tailwind CSS
 - PostCSS & Autoprefixer
 - ESLint
-
-## 📚 API Endpoints
-
-```
-GET  /                 # Welcome message
-POST /api/auth/register # User registration
-POST /api/auth/login    # User login
-GET  /api/users         # Get all users
-GET  /api/users/:id     # Get user by ID
-```
-   - Kill the process using the port: `npx kill-port 5000`
-
-3. **Dependencies Issues**
-   - Delete node_modules and package-lock.json
-   - Run `npm install` again
