@@ -2,16 +2,7 @@
 
 A social media platform web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Vite as the build tool.
 
-## 🚀 Features
-
-- **Frontend**: React.js with Vite for fast development and building
-- **Styling**: Tailwind CSS for modern, responsive design
-- **Backend**: Node.js with Express.js
-- **Database**: MongoDB with Mongoose ODM
-- **Authentication**: JWT-based authentication
-- **Development**: Hot reloading for both client and server
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 mern-stack/
@@ -32,7 +23,7 @@ mern-stack/
 └── README.md
 ```
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -70,7 +61,7 @@ mern-stack/
    - Make sure MongoDB is running locally, or
    - Use MongoDB Atlas and update the MONGODB_URI
 
-## 🚀 Running the Application
+## Running the Application
 
 ### Development Mode
 ```bash
@@ -92,52 +83,6 @@ npm run build
 # Start the server
 npm start
 ```
-
-## 🎨 Styling with Tailwind CSS
-
-This project uses Tailwind CSS for styling, providing:
-
-- **Utility-first approach**: Build designs directly in your markup
-- **Responsive design**: Mobile-first responsive utilities
-- **Dark mode support**: Automatic dark mode capabilities
-- **Custom components**: Pre-built component classes in `src/index.css`
-- **Plugins included**:
-  - `@tailwindcss/forms` - Better form styling
-  - `@tailwindcss/typography` - Beautiful typography
-- **Custom theme**: Extended with primary color palette and animations
-
-### Using Tailwind CSS
-
-```jsx
-// Example component with Tailwind classes
-<button className="btn-primary">
-  Primary Button
-</button>
-
-<div className="card p-6">
-  <h2 className="text-xl font-bold text-gray-900 dark:text-white">
-    Card Title
-  </h2>
-</div>
-```
-
-## 📝 Available Scripts
-
-### Root Level
-- `npm run dev` - Run both client and server in development mode
-- `npm run server` - Run only the backend server
-- `npm run client` - Run only the frontend client
-- `npm run build` - Build the frontend for production
-- `npm run install-all` - Install dependencies for both client and server
-
-### Client (Frontend)
-- `npm run dev` - Start Vite development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-
-### Server (Backend)
-- `npm run dev` - Start server with nodemon
-- `npm start` - Start server in production mode
 
 ## 🔧 Technologies Used
 
@@ -173,29 +118,6 @@ POST /api/auth/login    # User login
 GET  /api/users         # Get all users
 GET  /api/users/:id     # Get user by ID
 ```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the ISC License.
-
-## 🆘 Troubleshooting
-
-### Common Issues
-
-1. **MongoDB Connection Error**
-   - Ensure MongoDB is running
-   - Check the MONGODB_URI in your .env file
-
-2. **Port Already in Use**
-   - Change the PORT in your .env file
    - Kill the process using the port: `npx kill-port 5000`
 
 3. **Dependencies Issues**
